@@ -1,0 +1,47 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+}
+
+.grey-background {
+    background-color: lightgrey;
+    padding: 1px;
+}
+
+.red-badge {
+    background-color: red;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    margin: 5px 5px;
+}
+
+.red-badge h1 {
+    color: white;
+    font-family: Work Sans, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 5rem;
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+    line-height: 80%;
+}
+
+.red-badge h3 {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 2.25rem;
+    font-family: Helvetica, sans-serif;
+}
+
+.name {
+    background-color: white;
+    border: 1px solid white;
+    font-family: Cookie, script;
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-bottom: 5px;
+}
