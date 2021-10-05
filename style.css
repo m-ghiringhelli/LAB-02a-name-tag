@@ -9,6 +9,7 @@ body {
 .grey-background {
     background-color: lightgrey;
     padding: 1px;
+    width: 450px;
 }
 
 .red-badge {
