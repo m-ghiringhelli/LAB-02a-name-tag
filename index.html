@@ -17,20 +17,52 @@
     <title>Name Tag</title>
 </head>
 <body>
-    <div  class="grey-background">
+       <div  id="grey-background">
         <figure class="red-badge">
-            <h1>
+            <h1>    
             HELLO
             </h1>
             <h3>
             my name is
             </h3>
                 <section class="name">
-                    <p>
+                    <p id="name-display">
                     Steven Universe
+                    </p>
+                    <p id="pronoun-display">
+                    She/Her
                     </p>
                 </section>  
         </figure>
     </div>
+    <div id="buttons">
+        <section id="update-name">
+            Name: 
+            <input id='name-input'>
+             <button id="update-button-name" class="button">
+                Update
+             </button>
+        </section>
+        <section id="update-pronouns">
+            Pronouns: 
+            <input id='pronoun-input'>
+             <button id="update-button-pronouns" class="button">
+                Update
+             </button>
+        </section>
+        <p id="background-header">Select another background:</p>
+        <section id="change-color">
+            <button id="bg-pink">
+                Pink
+            </button>
+            <button id="bg-lightgreen" class="button">
+                Light green
+            </button>
+            <button id="bg-lightblue" class="button">
+                Light blue
+            </button>
+        </section>     
+    </div> 
+    <script src="app.js" type="module"></script>
 </body>
 </html>

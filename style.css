@@ -2,11 +2,20 @@
     text-align: center;
 }
 
+.faded {
+    opacity: 0.5;
+}
+
 body {
     background-color: white;
 }
 
-.grey-background {
+#buttons {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+#grey-background {
     background-color: lightgrey;
     padding: 1px;
     width: 450px;
@@ -41,8 +50,53 @@ body {
 .name {
     background-color: white;
     border: 1px solid white;
+    margin-bottom: 5px;
+}
+
+#name-display {
     font-family: Cookie, script;
     font-size: 2.5rem;
     font-style: italic;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+#pronoun-display {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
+
+#update-name {
+    margin-top: 15px;
+}
+
+#update-pronouns {
+    margin-top: 15px;
+}
+
+#change-color {
+    margin-top: 15px;
+}
+
+button {
+    background-color: #DDDDEF;
+    border-color: lightgray;
+    border-radius: 5px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 20px;
+}
+
+input {
+    padding: 5px 0px;
+}
+
+#buttons {
+    float: left;
+    margin-left: 65px;
+}
+
+#background-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: darkgray
 }
